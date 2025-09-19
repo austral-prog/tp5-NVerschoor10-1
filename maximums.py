@@ -1,10 +1,19 @@
-# Replace the "ANSWER HERE" for your answer
-
 def max_of_two(x, y):
-    """Given x and y, that are 2 numbers, return the biggest number."""
-    return "ANSWER HERE" # Remove this line and implement
-
+    """Dado x e y, retorna el mayor de los dos."""
+    if x > y:
+        return x
+    else:
+        return y
 
 def max_of_three(x, y, z):
-    """Given x, y and z, that are 3 numbers, return the biggest number of the three."""
-    return "ANSWER HERE" # Remove this line and implement
+    """Dado x, y y z, retorna el mayor de los tres."""
+    if x > y:
+        if x > z:
+            return x
+        else:
+            return z
+    else:
+        if y > z:
+            return y
+        else:
+            return z
